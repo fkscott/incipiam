@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>Label</key>
+    <string>whatever_typed_here_will_show_up_with_launchctl_list</string>
+<key>ProgramArguments</key>
+<array>
+	<string>/Users/-USERNAME-/path/to/your/script.sh</string>
+</array>
+<key>StartInterval</key>
+<integer>no_of_secs_you_want_the_script_to_be_executed</integer>
+<key>LowPriorityIO</key>
+<true/>
+</dict>
+</plist>
